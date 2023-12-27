@@ -3092,3 +3092,35 @@ h6 {
 .custom-indicator {
   list-style-type: square; /* You can use 'disc', 'circle', 'square', 'none', etc. */
 }
+
+.align-div-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main_title_custom {
+  text-align: center;
+  margin-bottom: 75px; }
+  .main_title_custom h2 {
+    font-family: "Lexend", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+  .main_title_custom p {
+    font-size: 16px;
+    font-family: "Lexend", sans-serif;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 0px;
+    max-width: 870px;
+    margin: auto; }
+  .main_title_custom.white h2 {
+    color: #fff; }
+  .main_title_custom.white p {
+    color: #fff;
+    opacity: .6; }
