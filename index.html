@@ -28,7 +28,7 @@
             	<nav class="navbar navbar-expand-lg navbar-light">
 					<div class="container box_1620">
 						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/Zach-logo.png" style="max-width: 150px;" alt=""></a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -38,24 +38,10 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Services</a>
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li>
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+								<li class="nav-item"><a class="nav-link" href="#work">Work</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#volunteer">Services</a> 
+								<li class="nav-item"><a class="nav-link" href="#sports">Sports</a></li>
+								<li class="nav-item"><a class="nav-link" href="#clubs">Clubs</a></li>
 							</ul>
 						</div> 
 					</div>
@@ -71,7 +57,7 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="home_left_img">
-								<img src="img/banner/home-left-1.png" alt="">
+								<img src="img/gallery/Race png.png" style="max-width: 500px; max-width: 500px;" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6">
@@ -88,8 +74,8 @@
         </section>
         <!--================End Home Banner Area =================-->
         
-        <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
+        <!--================Work Area =================-->
+        <section class="welcome_area p_120" id="work">
         	<div class="container">
         		<div class="row welcome_inner">
         			<div class="col-lg-6">
@@ -114,15 +100,15 @@
         				</div>
         			</div>
         			<div class="col-lg-6"> 
-						<img src="./img/gallery/portfolio_details.jpg"/>
+						<img src="./img/projects/racing-03.jpeg" style="max-width: 650px; max-height: 650px; border-radius: 5px;"/>
         			</div>
         		</div>
         	</div>
         </section>
         <!--================End Welcome Area =================-->
         
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120">
+        <!--================Volunteer Area =================-->
+        <section class="feature_area p_120" id="volunteer">
         	<div class="container">
         		<div class="main_title">
         			<h2>Volunteer</h2> 
@@ -143,8 +129,8 @@
         </section>
         <!--================End Feature Area =================-->
         
-        <!--================Projects Area =================-->
-        <section class="projects_area p_120">
+        <!--================Sports Area =================-->
+        <section class="projects_area p_120" id="sports">
         	<div class="container">
         		<div class="main_title_custom">
 					<h2>Sports</h2> 
@@ -153,75 +139,61 @@
 				</div> 
         		<div class="projects_fillter">
 					<ul class="filter list"> 
-						<li data-filter="*"><a href="#">All</a></li>
-						<li data-filter=".brand"><a href="#">Motorsports</a></li>
-						<li data-filter=".work"><a href="#">Tennis </a></li>
-						<li data-filter=".web"><a href="#">Football</a></li>
-						<li data-filter=".web"><a href="#">Fundraising</a></li>
+						<li class="active" data-filter="*"><a href="#">All</a></li>
+						<li data-filter=".motorsports"><a href="#">Motorsports</a></li>
+						<li data-filter=".tennis"><a href="#">Tennis </a></li>
+						<li data-filter=".football"><a href="#">Football</a></li> 
+						<li data-filter=".jumping"><a href="#">Long Jumping</a></li> 
 					</ul>
 				</div>
 				<div class="projects_inner row">
-					<div class="col-lg-4 col-sm-6 brand web">
+					<div class="col-lg-4 col-sm-6 tennis">
 						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-1.jpg" alt="">
+							<img class="img-fluid" src="img/projects/tennis.jpg" alt="">
 							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
+								<a href="#"><h4>Tennis</h4></a> 
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand work">
+					</div> 
+					<div class="col-lg-4 col-sm-6 motorsports">
 						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-2.jpg" alt="">
+							<img class="img-fluid" src="img/projects/racing-02.png" alt="">
 							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
+								<a href="#"><h4>Racing</h4></a> 
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 work">
+					</div> 
+					<div class="col-lg-4 col-sm-6 jumping">
 						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-3.jpg" alt="">
+							<img class="img-fluid" src="img/projects/jumping.png" alt="">
 							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
+								<a href="#"><h4>Jumping</h4></a> 
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand web">
+					</div> 
+					<div class="col-lg-4 col-sm-6 football">
 						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-4.jpg" alt="">
+							<img class="img-fluid" src="img/projects/football.png" alt="">
 							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
+								<a href="#"><h4>Football</h4></a> 
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand work">
+					</div>  
+					<div class="col-lg-4 col-sm-6 motorsports">
 						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
+							<img class="img-fluid" src="img/projects/racing-01.JPG" alt="">
 							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
+								<a href="#"><h4>Racing</h4></a> 
 							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 brand work web">
-						<div class="projects_item">
-							<img class="img-fluid" src="img/projects/projects-6.jpg" alt="">
-							<div class="projects_text">
-								<a href="portfolio-details.html"><h4>3D Helmet Design</h4></a>
-								<p>Client Project</p>
-							</div>
-						</div>
-					</div>
+					</div>  
 				</div>
         	</div>
         </section>
         <!--================End Projects Area =================-->
         
-        <!--================Testimonials Area =================-->
-        <section class="testimonials_area p_120">
+        <!--================Clubs Area =================-->
+        <section class="testimonials_area p_120" id="clubs">
         	<div class="container">
         		<div class="main_title">
         			<h2>Clubs</h2>
@@ -238,7 +210,7 @@
 						</div>
 						<div class="item">
 							<div class="testi_item align-div-center">
-								<a href="#"><i class="fa-solid fa-dice-two" style="font-size: 36px;"></i></a>
+								<a href="#"><i class="fa-solid fa-dice-two" style="font-size: 36px; color: blueviolet;"></i></a>
 								<br/> 
 								<p>Vice President of Entrepreneurship Club</p>  
 								
@@ -246,7 +218,7 @@
 						</div>
 						<div class="item">
 							<div class="testi_item align-div-center">
-								<a href="#"><i class="fa-solid fa-dice-three" style="font-size: 36px;"></i></i></a>
+								<a href="#"><i class="fa-solid fa-dice-three" style="font-size: 36px; color:cadetblue;"></i></i></a>
 								<br/> 
 								<p>Junior Economics Club of New York</p>  
 								<br/>
@@ -259,7 +231,7 @@
         <!--================End Testimonials Area =================-->
         
         <!--================Latest Blog Area =================-->
-        <section class="latest_blog_area p_120">
+        <!-- <section class="latest_blog_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Latest Posts from Blog</h2>
@@ -310,7 +282,7 @@
         			</div>
         		</div>
         	</div>
-        </section>
+        </section> -->
         <!--================End Latest Blog Area =================-->
         
         <!--================Footer Area =================-->
@@ -350,6 +322,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         					<div class="f_title">
         						<h3>Follow Me</h3>
         					</div>
+							<p style="color: white;">Email:zach@zehrlich.me</p>
         					<p>Let us be social</p>
         					<ul class="list">
         						<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
