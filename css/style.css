@@ -456,7 +456,7 @@ button:focus {
     .causes_slider .owl-dots .owl-dot:last-child {
       margin-right: 0px; }
     .causes_slider .owl-dots .owl-dot.active {
-      background: #8490ff; }
+      background: #8490ff;  }
 
 .causes_item {
   background: #fff; }
@@ -2842,7 +2842,12 @@ h6 {
     .projects_fillter .filter li:last-child {
       margin-right: 0px; }
     .projects_fillter .filter li.active a {
-      color: #8490ff; }
+      color: #8490ff; 
+      background: #8490ff2f;
+      padding: 10px; 
+      border-radius: 5px;  
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    }
 
 .projects_inner {
   margin-bottom: -30px; }
